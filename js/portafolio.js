@@ -102,11 +102,11 @@ const data_projects = [
         "integrations":"Paypal",
         "description":"Ebit Market es una aplicación móvil para el uso y compra de productos y servicios con criptomonedas tales como Ethereum, Bitcoin y Litecoin junto con la stable coin de la plataforma el Ebit.",
         "screenshots":[
-            path_screenshots+"ebit_01.png",    
-            path_screenshots+"ebit_02.png",
-            path_screenshots+"ebit_03.png",
-            path_screenshots+"ebit_04.png",
-            path_screenshots+"ebit_05.png"
+            path_screenshots+"ebit_01.PNG",    
+            path_screenshots+"ebit_02.PNG",
+            path_screenshots+"ebit_03.PNG",
+            path_screenshots+"ebit_04.PNG",
+            path_screenshots+"ebit_05.PNG"
         ],
         "links":[
             {
@@ -134,9 +134,9 @@ const data_projects = [
         "description":"TOGOFY es una aplicación en la cual los usuarios pueden registrarse en sus distintas opciones (Google, Facebook, entre otros) y puedan realizar sus solicitudes de servicio como compras a tiendas y solicitudes de envío de encomiendas desde la aplicación los cuales serán enviados a la puerta de su hogar por medio del domiciliario. Dicha aplicación cuenta con promociones y cupones para mejorar la experiencia de sus clientes. Adicional a ello se desarrollaron 3 aplicaciones para comercios afiliados, domiciliarios y administradores de plataforma.",
         "screenshots":[
             path_screenshots+"togofy_01.jpg",    
-            path_screenshots+"togofy_02.png",
-            path_screenshots+"togofy_03.png",
-            path_screenshots+"togofy_04.jpg",
+            path_screenshots+"togofy_02.PNG",
+            path_screenshots+"togofy_03.PNG",
+            path_screenshots+"togofy_04.JPG",
             path_screenshots+"togofy_05.png",
             path_screenshots+"togofy_06.png",
             path_screenshots+"togofy_07.png"
