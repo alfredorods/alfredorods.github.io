@@ -14,6 +14,9 @@
 	<link rel="stylesheet" href="./css/slick.css" type="text/css" media="all">
 	<link rel="stylesheet" href="./css/jquery.mCustomScrollbar.min.css" type="text/css" media="all">
 	<link rel="stylesheet" href="./css/style.css" type="text/css" media="all">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.4.0/css/lightgallery.min.css" integrity="sha512-J3GvWzuXtDGv7Kmqhj1gbn/jM2i3G40XtSBcqGEQ7eLpP0izHygFgT0FMIVCWMVRZnz7u2rS6mhTtlQ3oJsr1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="./css/ligthgallery/lg-zoom.css" type="text/css">
+	<link rel="stylesheet" href="./css/ligthgallery/lg-thumbnail.css" type="text/css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css">
 </head>
 
@@ -435,7 +438,7 @@
 			<!-- portfolio filter (desktop) -->
 			<ul class="portfolio-filter list-inline">
 				<li class="current list-inline-item" data-filter="*">Proyectos</li>
-				<li class="list-inline-item" data-filter=".App">App</li>
+				<li class="list-inline-item" data-filter=".App">Apps</li>
 				<li class="list-inline-item" data-filter=".Web">Webs</li>
 			</ul>
 
@@ -453,7 +456,7 @@
 				
 				<!-- portfolio item -->
 				<div class="col-md-4 col-sm-6 grid-item App" style="position: absolute; left: 0%; top: 0px;">
-					<a>
+					<a class="portafolio-link" data-item="gestionar">
 						<div class="portfolio-item">
 							<div class="details">
 								<h4 class="title">Gestionar - App</h4>
@@ -467,57 +470,10 @@
 					</a>
 				</div>
 
-				<!-- portfolio item -->
-				<div class="col-md-4 col-sm-6 grid-item Web" style="position: absolute; left: 33.2075%; top: 0px;">
-					<a>
-						<div class="portfolio-item">
-							<div class="details">
-								<h4 class="title">Rtic Coolers - Web</h4>
-								<span class="term">Ecommerce de ventas de coolers y vasos Rtic Panamá</span>
-							</div>
-							<div class="thumb">
-								<img src="img/portafolio/rtic_pa.jpeg" alt="Rtic Coolers Web">
-								<div class="mask"></div>
-							</div>
-						</div>
-					</a>
-				</div>
-
-				<!-- portfolio item -->
-				<div class="col-md-4 col-sm-6 grid-item App" style="position: absolute; left: 66.5409%; top: 0px;">
-					<a>
-						<div class="portfolio-item">
-							<div class="details">
-								<h4 class="title">Rutas Panamá - App</h4>
-								<span class="term">App de transporte y servicios de logística en Panamá</span>
-							</div>
-							<div class="thumb">
-								<img src="img/portafolio/rutas_pa.jpeg" alt="Rutas Panamá - App">
-								<div class="mask"></div>
-							</div>
-						</div>
-					</a>
-				</div>
-
-				<!-- portfolio item -->
-				<div class="col-md-4 col-sm-6 grid-item App" style="position: absolute; left: 0%; top: 203px;">
-					<>
-						<div class="portfolio-item">
-							<div class="details">
-								<h4 class="title">Ebit - Crypto App</h4>
-								<span class="term">App de comercio e intercambio de crypto activos en EEUU</span>
-							</div>
-							<div class="thumb">
-								<img src="img/portafolio/ebit_eeuu.jpeg" alt="Ebit - Crypto App">
-								<div class="mask"></div>
-							</div>
-						</div>
-					</a>
-				</div>
 
 				<!-- portfolio item -->
 				<div class="col-md-4 col-sm-6 grid-item App" style="position: absolute; left: 33.2075%; top: 203px;">
-					<a>
+					<a class="portafolio-link" data-item="togofy"> 
 						<div class="portfolio-item">
 							<div class="details">
 								<h4 class="title">Togofy - Delivery App</h4>
@@ -530,18 +486,48 @@
 						</div>
 					</a>
 				</div>
-				
 
 				<!-- portfolio item -->
-				<div class="col-md-4 col-sm-6 grid-item Web" style="position: absolute; left: 66.5409%; top: 203px;">
-					<a>
+				<div class="col-md-4 col-sm-6 grid-item App" style="position: absolute; left: 66.5409%; top: 0px;">
+					<a class="portafolio-link" data-item="rutas">
 						<div class="portfolio-item">
 							<div class="details">
-								<h4 class="title">Detalle inusual - Web</h4>
-								<span class="term">Ecommerce de ventas de artículos de regalos en Panamá</span>
+								<h4 class="title">Rutas Panamá - App</h4>
+								<span class="term">App de transporte y servicios de logística en Panamá</span>
 							</div>
 							<div class="thumb">
-								<img src="img/portafolio/detalle_pa.jpeg" alt="Detalle inusual - Web">
+								<img src="img/portafolio/rutas_pa.jpeg" alt="Rutas Panamá - App">
+								<div class="mask"></div>
+							</div>
+						</div>
+					</a>
+				</div>
+				
+				<!-- portfolio item -->
+				<div class="col-md-4 col-sm-6 grid-item Web" style="position: absolute; left: 33.2075%; top: 0px;">
+					<a class="portafolio-link" data-item="placita">
+						<div class="portfolio-item">
+							<div class="details">
+								<h4 class="title">Mi Placita - Web</h4>
+								<span class="term">Ecommerce tipo marketplace</span>
+							</div>
+							<div class="thumb">
+								<img src="img/portafolio/miplacita.png" alt="Mi placita Web">
+								<div class="mask"></div>
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-md-4 col-sm-6 grid-item App" style="position: absolute; left: 66.5409%; top: 203px;">
+					<a  class="portafolio-link" data-item="elite">
+						<div class="portfolio-item">
+							<div class="details">
+								<h4 class="title">Grupo Elite</h4>
+								<span class="term">App de gestión de teletrabajo para call center</span>
+							</div>
+							<div class="thumb">
+								<img src="img/portafolio/grupoelite_pa.jpeg" alt="Inbox - App">
 								<div class="mask"></div>
 							</div>
 						</div>
@@ -550,7 +536,7 @@
 
 				<!-- portfolio item -->
 				<div class="col-md-4 col-sm-6 grid-item Web" style="position: absolute; left: 66.5409%; top: 203px;">
-					<a>
+					<a class="portafolio-link" data-item="exponential">
 						<div class="portfolio-item">
 							<div class="details">
 								<h4 class="title">Exponential Lat - Web</h4>
@@ -564,9 +550,30 @@
 					</a>
 				</div>
 
+
+				
+
+				<!-- portfolio item -->
+				<div class="col-md-4 col-sm-6 grid-item App" style="position: absolute; left: 0%; top: 203px;">			
+					<a class="portafolio-link" data-item="ebit">
+						<div class="portfolio-item">
+							<div class="details">
+								<h4 class="title">Ebit - Crypto App</h4>
+								<span class="term">App de comercio e intercambio de crypto activos en EEUU</span>
+							</div>
+							<div class="thumb">
+								<img src="img/portafolio/ebit_eeuu.jpeg" alt="Ebit - Crypto App">
+								<div class="mask"></div>
+							</div>
+						</div>
+					</a>
+				</div>
+
+				
+
 				<!-- portfolio item -->
 				<div class="col-md-4 col-sm-6 grid-item App" style="position: absolute; left: 66.5409%; top: 203px;">
-					<a>
+					<a  class="portafolio-link" data-item="inbox">
 						<div class="portfolio-item">
 							<div class="details">
 								<h4 class="title">Inbox - App</h4>
@@ -580,6 +587,38 @@
 					</a>
 				</div>
 
+				<div class="col-md-4 col-sm-6 grid-item App" style="position: absolute; left: 66.5409%; top: 203px;">
+					<a  class="portafolio-link" data-item="wageen">
+						<div class="portfolio-item">
+							<div class="details">
+								<h4 class="title">Wageen</h4>
+								<span class="term">Aplicación de taxis en Panamá</span>
+							</div>
+							<div class="thumb">
+								<img src="img/portafolio/wageen_pa.jpeg" alt="Inbox - App">
+								<div class="mask"></div>
+							</div>
+						</div>
+					</a>
+				</div>
+
+				
+
+				<!-- portfolio item -->
+				<div class="col-md-4 col-sm-6 grid-item Web" style="position: absolute; left: 33.2075%; top: 0px;">
+					<a class="portafolio-link" data-item="rtic">
+						<div class="portfolio-item">
+							<div class="details">
+								<h4 class="title">Rtic Coolers - Web</h4>
+								<span class="term">Ecommerce de ventas de coolers y vasos Rtic Panamá</span>
+							</div>
+							<div class="thumb">
+								<img src="img/portafolio/rtic_pa.jpeg" alt="Rtic Coolers Web">
+								<div class="mask"></div>
+							</div>
+						</div>
+					</a>
+				</div>
 			</div>
 			
 			<!-- more button -->
@@ -686,51 +725,47 @@
 						</div>
 					</div>
 
-				<!--<div class="col-md-8">
-					<form id="contact-form" class="contact-form" method="post" action="https://jthemes.net/themes/html/bako-html/form/contact.php" novalidate="true">
-						
-						<div class="messages"></div>
-						
-						<div class="row">
-							<div class="column col-md-6">
-								<div class="form-group">
-									<input type="text" class="form-control" name="InputName" id="InputName" placeholder="Tu nombre" required="required" data-error="Nombre es requerido." style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;">
-									<div class="help-block with-errors"></div>
-								</div>
-							</div>
-							
-							<div class="column col-md-6">
-								<div class="form-group">
-									<input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Email" required="required" data-error="Email es requerido y debe contener formato válido.">
-									<div class="help-block with-errors"></div>
-								</div>
-							</div>
-
-							<div class="column col-md-12">
-								<div class="form-group">
-									<input type="text" class="form-control" id="InputSubject" name="InputSubject" placeholder="Asunto" required="required" data-error="Asunto es requerido.">
-									<div class="help-block with-errors"></div>
-								</div>
-							</div>
-					
-							<div class="column col-md-12">
-								<div class="form-group">
-									<textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" placeholder="Mensaje" required="required" data-error="Mensaje es requerido."></textarea>
-									<div class="help-block with-errors"></div>
-								</div>
-							</div>
-						</div>
-
-						<button type="submit" name="submit" id="submit" value="Submit" class="btn btn-default disabled"><i class="icon-paper-plane"></i>Enviar</button>
-
-					</form>
-				</div>-->
-
 			</div>
 
 		</section>
 		
 	</main>
+
+	<div class="modal fade" tabindex="-1" id="project-description" role="dialog">
+		<div class="modal-dialog modal-lg" role="document">
+		  <div class="modal-content">
+			<div class="modal-header">
+			  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			</div>
+			<div class="modal-body">
+			  <p><strong>Proyecto: </strong><span id="title-project">Gestionar App</span></p>
+			  <p><strong>Año: </strong><span id="year-project">2022</span></p>
+			  <p><strong>Estado: </strong><span id="status-project">Activo</span></p>
+			  <p><strong>Rol: </strong><span id="role-project">Desarrollador Fullstack</span></p>
+			  <p><strong>Plataformas: </strong><span id="platform-project">Web,Android y Ios</span></p>
+			  <p><strong>Tecnologías: </strong><span id="techs-project">Node Js, Angular y Ionic</span></p>
+			  <p><strong>Integraciones / APIs: </strong><span id="integrations-project">Mercado Libre API, Woocommerce API, Shopify API y Firebase</span></p>
+			  <p><strong>Descripción:</strong></p>
+			  <p class="text-justify" id="description-project">
+				Gestionar es una App de logística y servicios de delivery para empresas que integra diferentes marketplace como Mercado libre, Woocommerce y Shopify para sincronizar ventas de diferentes proveedores y prestar un servicio de paquetería a los mismos. Todo desarrollado bajo un ambiente cloud con diferentes tecnologías tales como Node Js, Angular e Ionic. En este proyecto cumplí tareas de fullstack para realizar las diferentes integraciones con los diferentes proveedores de ecommerce por medio de diferentes microservicios.
+			  </p>
+			  <p><strong>Enlaces de interés:</strong></p>
+			  <div id="links-project"></div>
+			</div>
+			
+			<div id="lightgallery">
+				<a href="img/screenshots/gestionar_01.png">
+					<img src="img/screenshots/gestionar_01.png" />
+				</a>
+				<a href="img/screenshots/gestionar_01.png">
+					<img src="img/screenshots/gestionar_01.png" />
+			</div>
+
+			<div class="modal-footer">
+			  <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+		  </div><!-- /.modal-content -->
+		</div><!-- /.modal-dialog -->
+	  </div><!-- /.modal -->
 
 </div>
 
@@ -738,6 +773,7 @@
 <a href="javascript:" id="return-to-top" style="display: none;"><i class="fa fa-chevron-up"></i></a>
 
 <!-- SCRIPTS -->
+
 <script src="./js/jquery-1.12.3.min.js"></script>
 <script src="./js/jquery.easing.min.js"></script>
 <script src="./js/popper.min.js"></script>
@@ -752,6 +788,18 @@
 <script src="./js/contact.js"></script>
 <script src="./js/validator.js"></script>
 <script src="./js/custom.js"></script>
+<script src="./js/portafolio.js"></script>
+<!-- Or use the minified version -->
+<script src="./js/lightgallery/lightgallery.min.js"></script>
 
+<!-- lightgallery plugins -->
+<script src="./js/lightgallery/lg-thumbnail.min.js"></script>
+<script src="./js/lightgallery/lg-zoom.min.js"></script>
+
+<script type="text/javascript">
+    lightGallery(document.getElementById('lightgallery'), {
+        plugins: [lgZoom, lgThumbnail]
+    });
+</script>
 
 </body></html>

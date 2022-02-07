@@ -1692,4 +1692,9 @@ section.padding-60 {
   }
 }
 
+.gallery-item {
+  width: 30%;
+  padding: 30px;
+}
+
 /*# sourceMappingURL=style.css.map */
