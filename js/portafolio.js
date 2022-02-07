@@ -189,13 +189,13 @@ const data_projects = [
         "integrations":"Sin integraciones de terceros",
         "description":"Inbox es una app de logística internacional que busca conectar usuarios que quieran realizar sus compras en los Estados unidos, crearse un casillero y poder por medio del mismo recibir sus productos en Ciudad De Panamá por medio de la logística internacional de la empresa Inbox.",
         "screenshots":[
-            path_screenshots+"ibx_01.png",    
-            path_screenshots+"ibx_02.png",
-            path_screenshots+"ibx_03.png",
-            path_screenshots+"ibx_04.png",
-            path_screenshots+"ibx_05.png",
-            path_screenshots+"ibx_06.png",
-            path_screenshots+"ibx_07.png"
+            path_screenshots+"ibx_01.PNG",    
+            path_screenshots+"ibx_02.PNG",
+            path_screenshots+"ibx_03.PNG",
+            path_screenshots+"ibx_04.PNG",
+            path_screenshots+"ibx_05.PNG",
+            path_screenshots+"ibx_06.PNG",
+            path_screenshots+"ibx_07.PNG"
         ],
         "links":[
             {
